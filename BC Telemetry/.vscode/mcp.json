@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "bc-telemetry-buddy": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "bc-telemetry-buddy-mcp", "start"],
+      "env": {
+        "BCTB_WORKSPACE_PATH": "${workspaceFolder}"
+      }
+    }
+  }
+}
